@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    padding: 100px 18%;
+    background: whitesmoke;
+
+}
+/* .img1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 4rem;
+} */
+#image1 img{
+    max-width: 100%;
+    width: 540px;
+    height: auto;
+    align-items: center;
+    filter: blur(0); 
+}
+#text{
+    position: absolute;
+    top: 50%;
+    right: 50%; 
+    transform: translate(-1%, -1%);
+    text-align: center;
+    justify-content: center;
+} 
+button{
+    background-color: burlywood;
+    border: none;
+    width: 100px;
+    height: 2rem;
+    cursor: pointer;
+    /* position: absolute;
+    bottom: 20px; */
+}
